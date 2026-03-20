@@ -1,4 +1,4 @@
-module gitlab1.usace.army.mil/csd-f/browser-history
+module github.com/McFlip/histdump/histdump
 
 go 1.24.4
 

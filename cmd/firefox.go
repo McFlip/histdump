@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"gitlab1.usace.army.mil/csd-f/browser-history/internal/firefox"
+	"github.com/McFlip/histdump/histdump/internal/firefox"
 )
 
 // firefoxCmd represents the firefox command
@@ -22,7 +22,7 @@ Windows: %APPDATA%\\Mozilla\\Firefox\\Profiles\\<profile>\\places.sqlite`,
 		fmt.Println("Extracting Firefox browser history...")
 		if historyFile == "" || outputFile == "" {
 			fmt.Println("Error: Both --file and --output flags are required.")
-			fmt.Println("Usage: browser-history firefox -f [path to file] -o [output file]")
+			fmt.Println("Usage: histdump firefox -f [path to file] -o [output file]")
 			return
 		}
 		fmt.Printf("History file: %s\n", historyFile)

@@ -7,8 +7,8 @@ import (
 	"log"
 	"time"
 
-	"gitlab1.usace.army.mil/csd-f/browser-history/internal/chrome/sqlc"
-	"gitlab1.usace.army.mil/csd-f/browser-history/internal/util"
+	"github.com/McFlip/histdump/histdump/internal/chrome/sqlc"
+	"github.com/McFlip/histdump/histdump/internal/util"
 	_ "modernc.org/sqlite"
 )
 

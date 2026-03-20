@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"gitlab1.usace.army.mil/csd-f/browser-history/internal/firefox/sqlc_ff"
+	"github.com/McFlip/histdump/histdump/internal/firefox/sqlc_ff"
 )
 
 func TestExtractFirefoxHistory(t *testing.T) {

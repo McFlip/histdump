@@ -16,7 +16,7 @@ var (
 	beforeDate  string // Filter for visits before this date (YYYY-MM-DD)
 	// rootCmd represents the base command when called without any subcommands
 	rootCmd = &cobra.Command{
-		Use:   "browser-history [ chrome | firefox ] -f [path to file] -o [output file] -a [after YYYY-MM-DD] -b [before YYYY-MM-DD]",
+		Use:   "histdump [ chrome | firefox ] -f [path to file] -o [output file] -a [after YYYY-MM-DD] -b [before YYYY-MM-DD]",
 		Short: "A CLI tool to extract browser history to a CSV file",
 		Long:  `Import browser history sqlite database files from Chrome or Firefox and export them to a CSV file.`,
 		// Uncomment the following line if your bare application
@@ -39,7 +39,7 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.browser-history.yaml)")
+	// rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.histdump.yaml)")
 
 	// Cobra also supports local flags, which will only run
 	// when this action is called directly.

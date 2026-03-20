@@ -58,7 +58,7 @@ If you plan on using it for triage on a live target system, download all the rel
 Run once for each browser.
 
 ```powershell
-.\browser-history.exe [ chrome | firefox ] --file <Input DB> --output <CSV output> --after YYYY-MM-DD --before YYYY-MM-DD
+.\histdump.exe [ chrome | firefox ] --file <Input DB> --output <CSV output> --after YYYY-MM-DD --before YYYY-MM-DD
 ```
 
 chrome
@@ -83,4 +83,4 @@ You can specify `after`, `before`, or both together to get a `between` filter.
 
 > [!NOTE]
 > You can pass the `--help` flag to the root command, chrome command, or the firefox command.
-> You can also just run `.\browser-history.exe` by itself and get usage info
+> You can also just run `.\histdump.exe` by itself and get usage info

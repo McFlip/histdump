@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"gitlab1.usace.army.mil/csd-f/browser-history/internal/chrome/sqlc"
+	"github.com/McFlip/histdump/histdump/internal/chrome/sqlc"
 )
 
 func TestExtractChromeHistory(t *testing.T) {
